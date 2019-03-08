@@ -79,7 +79,7 @@ class MarvelViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
             // Update Second View
             NotificationCenter.default.post(name: .reloadProjects, object: nil)
-        }
+        } 
         
         alertController.addAction(cancel)
         alertController.addAction(save)

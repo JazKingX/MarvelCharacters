@@ -1,0 +1,299 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KingfisherOptionsInfo"
+- "KingfisherOptionsInfoItem"
+- "KingfisherParsedOptionsInfo"
+provides-nominal:
+- "10Kingfisher0A15OptionsInfoItemO"
+- "10Kingfisher0A17ParsedOptionsInfoV"
+provides-member:
+- ["Sa", ""]
+- ["10Kingfisher0A15OptionsInfoItemO", ""]
+- ["10Kingfisher0A17ParsedOptionsInfoV", ""]
+- ["Sa", "empty"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "imageCreatingOptions"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CacheSerializer"
+- "CallbackQueue"
+- "DefaultCacheSerializer"
+- "DefaultImageProcessor"
+- "DispatchQueue"
+- "Float"
+- "FloatLiteralType"
+- "Image"
+- "ImageCache"
+- "ImageCreatingOptions"
+- "ImageDownloadRedirectHandler"
+- "ImageDownloadRequestModifier"
+- "ImageDownloader"
+- "ImageModifier"
+- "ImageProcessor"
+- "ImageTransition"
+- "KingfisherOptionsInfo"
+- "KingfisherOptionsInfoItem"
+- "KingfisherParsedOptionsInfo"
+- "Optional"
+- "StorageExpiration"
+- "URLSessionTask"
+depends-member:
+- ["Sa", "KingfisherOptionsInfo"]
+- ["Sa", "KingfisherOptionsInfoItem"]
+- ["Sa", "empty"]
+- ["s13ArrayProtocolP", "KingfisherOptionsInfoItem"]
+- ["SK", "KingfisherOptionsInfoItem"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "KingfisherOptionsInfoItem"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "defaultPriority"]
+- ["10Kingfisher15CacheSerializerP", "default"]
+- !private ["10Kingfisher13CallbackQueueO", "dispatch"]
+- ["10Kingfisher13CallbackQueueO", "mainCurrentOrAsync"]
+- ["Sl", "KingfisherOptionsInfoItem"]
+- ["s28CustomDebugStringConvertibleP", "KingfisherOptionsInfoItem"]
+- ["s28CustomDebugStringConvertibleP", "defaultPriority"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "KingfisherOptionsInfoItem"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "some"]
+- ["s23CustomStringConvertibleP", "KingfisherOptionsInfoItem"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "defaultPriority"]
+- ["Se", "KingfisherOptionsInfoItem"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "map"]
+- ["Se", "none"]
+- !private ["Se", "some"]
+- ["10Kingfisher22DefaultCacheSerializerV", "default"]
+- ["10Kingfisher22DefaultCacheSerializerV", "deinit"]
+- ["10Kingfisher21DefaultImageProcessorV", "default"]
+- ["10Kingfisher21DefaultImageProcessorV", "deinit"]
+- ["SE", "KingfisherOptionsInfoItem"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "map"]
+- ["SE", "none"]
+- !private ["SE", "some"]
+- ["SQ", "KingfisherOptionsInfoItem"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "defaultPriority"]
+- !private ["SQ", "map"]
+- ["SQ", "none"]
+- !private ["SQ", "some"]
+- ["s25ExpressibleByArrayLiteralP", "KingfisherOptionsInfoItem"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- ["SH", "KingfisherOptionsInfoItem"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "defaultPriority"]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- !private ["SH", "some"]
+- !private ["10Kingfisher20ImageCreatingOptionsV", "init"]
+- ["10Kingfisher14ImageProcessorP", "default"]
+- ["10Kingfisher15ImageTransitionO", "none"]
+- ["10Kingfisher0A15OptionsInfoItemO", "CGFloat"]
+- ["10Kingfisher0A15OptionsInfoItemO", "CacheSerializer"]
+- ["10Kingfisher0A15OptionsInfoItemO", "CallbackQueue"]
+- ["10Kingfisher0A15OptionsInfoItemO", "DispatchQueue"]
+- ["10Kingfisher0A15OptionsInfoItemO", "Float"]
+- ["10Kingfisher0A15OptionsInfoItemO", "Image"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageCache"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageDownloadRedirectHandler"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageDownloadRequestModifier"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageDownloader"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageModifier"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageProcessor"]
+- ["10Kingfisher0A15OptionsInfoItemO", "ImageTransition"]
+- ["10Kingfisher0A15OptionsInfoItemO", "StorageExpiration"]
+- ["10Kingfisher0A15OptionsInfoItemO", "alsoPrefetchToMemory"]
+- ["10Kingfisher0A15OptionsInfoItemO", "backgroundDecode"]
+- ["10Kingfisher0A15OptionsInfoItemO", "cacheMemoryOnly"]
+- ["10Kingfisher0A15OptionsInfoItemO", "cacheOriginalImage"]
+- ["10Kingfisher0A15OptionsInfoItemO", "cacheSerializer"]
+- ["10Kingfisher0A15OptionsInfoItemO", "callbackDispatchQueue"]
+- ["10Kingfisher0A15OptionsInfoItemO", "callbackQueue"]
+- ["10Kingfisher0A15OptionsInfoItemO", "diskCacheExpiration"]
+- ["10Kingfisher0A15OptionsInfoItemO", "downloadPriority"]
+- ["10Kingfisher0A15OptionsInfoItemO", "downloader"]
+- ["10Kingfisher0A15OptionsInfoItemO", "forceRefresh"]
+- ["10Kingfisher0A15OptionsInfoItemO", "forceTransition"]
+- ["10Kingfisher0A15OptionsInfoItemO", "fromMemoryCacheOrRefresh"]
+- ["10Kingfisher0A15OptionsInfoItemO", "imageModifier"]
+- ["10Kingfisher0A15OptionsInfoItemO", "keepCurrentImageWhileLoading"]
+- ["10Kingfisher0A15OptionsInfoItemO", "loadDiskFileSynchronously"]
+- ["10Kingfisher0A15OptionsInfoItemO", "memoryCacheExpiration"]
+- ["10Kingfisher0A15OptionsInfoItemO", "onFailureImage"]
+- ["10Kingfisher0A15OptionsInfoItemO", "onlyFromCache"]
+- ["10Kingfisher0A15OptionsInfoItemO", "onlyLoadFirstFrame"]
+- ["10Kingfisher0A15OptionsInfoItemO", "originalCache"]
+- ["10Kingfisher0A15OptionsInfoItemO", "preloadAllAnimationData"]
+- ["10Kingfisher0A15OptionsInfoItemO", "processingQueue"]
+- ["10Kingfisher0A15OptionsInfoItemO", "processor"]
+- ["10Kingfisher0A15OptionsInfoItemO", "redirectHandler"]
+- ["10Kingfisher0A15OptionsInfoItemO", "requestModifier"]
+- ["10Kingfisher0A15OptionsInfoItemO", "scaleFactor"]
+- ["10Kingfisher0A15OptionsInfoItemO", "targetCache"]
+- ["10Kingfisher0A15OptionsInfoItemO", "transition"]
+- ["10Kingfisher0A15OptionsInfoItemO", "waitForCache"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "CGFloat"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "CacheSerializer"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "CallbackQueue"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "DefaultCacheSerializer"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "DefaultImageProcessor"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "Float"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "Image"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageCache"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageCreatingOptions"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageDownloadRedirectHandler"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageDownloadRequestModifier"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageDownloader"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageModifier"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageProcessor"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "ImageTransition"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "KingfisherOptionsInfo"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "Optional"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "StorageExpiration"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "URLSessionTask"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "alsoPrefetchToMemory"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "backgroundDecode"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "cacheMemoryOnly"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "cacheOriginalImage"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "cacheSerializer"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "callbackQueue"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "diskCacheExpiration"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "downloadPriority"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "downloader"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "forceRefresh"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "forceTransition"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "fromMemoryCacheOrRefresh"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "imageCreatingOptions"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "imageModifier"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "init"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "keepCurrentImageWhileLoading"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "loadDiskFileSynchronously"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "memoryCacheExpiration"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "onFailureImage"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "onlyFromCache"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "onlyLoadFirstFrame"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "originalCache"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "preloadAllAnimationData"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "processingQueue"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "processor"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "redirectHandler"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "requestModifier"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "scaleFactor"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "targetCache"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "transition"]
+- ["10Kingfisher0A17ParsedOptionsInfoV", "waitForCache"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["SM", "KingfisherOptionsInfoItem"]
+- ["So9NSCopyingP", "defaultPriority"]
+- ["So8NSObjectC", "defaultPriority"]
+- ["So8NSObjectP", "defaultPriority"]
+- !private ["Sq", "map"]
+- ["Sq", "none"]
+- !private ["Sq", "some"]
+- ["So19NSProgressReportingP", "defaultPriority"]
+- ["Sk", "KingfisherOptionsInfoItem"]
+- ["Sm", "KingfisherOptionsInfoItem"]
+- ["ST", "KingfisherOptionsInfoItem"]
+- ["So16NSURLSessionTaskC", "defaultPriority"]
+- ["s24_DestructorSafeContainerP", "KingfisherOptionsInfoItem"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "KingfisherOptionsInfoItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "defaultPriority"]
+- ["s21_ObjectiveCBridgeableP", "KingfisherOptionsInfoItem"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "10Kingfisher15CacheSerializerP"
+- "10Kingfisher13CallbackQueueO"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "10Kingfisher22DefaultCacheSerializerV"
+- "10Kingfisher21DefaultImageProcessorV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Kingfisher20ImageCreatingOptionsV"
+- "10Kingfisher14ImageProcessorP"
+- "10Kingfisher15ImageTransitionO"
+- "10Kingfisher0A15OptionsInfoItemO"
+- "10Kingfisher0A17ParsedOptionsInfoV"
+- !private "s25LosslessStringConvertibleP"
+- "SM"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sq"
+- "So19NSProgressReportingP"
+- "Sk"
+- "Sm"
+- "ST"
+- "So16NSURLSessionTaskC"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d453760b02bbca0f8dc64317b3f2c90d"

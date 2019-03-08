@@ -1,0 +1,425 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10Kingfisher0A7WrapperV", ""]
+- ["10Kingfisher0A7WrapperV", "setImage"]
+- ["10Kingfisher0A7WrapperV", "setImage"]
+- ["10Kingfisher0A7WrapperV", "cancelImageDownloadTask"]
+- ["10Kingfisher0A7WrapperV", "setBackgroundImage"]
+- ["10Kingfisher0A7WrapperV", "setBackgroundImage"]
+- ["10Kingfisher0A7WrapperV", "cancelBackgroundImageDownloadTask"]
+- ["10Kingfisher0A7WrapperV", "taskIdentifier"]
+- ["10Kingfisher0A7WrapperV", "backgroundTaskIdentifier"]
+- ["10Kingfisher0A7WrapperV", "webURL"]
+- ["10Kingfisher0A7WrapperV", "backgroundWebURL"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Box"
+- !private "CallbackQueue"
+- "CastingPrecedence"
+- "DownloadProgressBlock"
+- "DownloadTask"
+- "KingfisherError"
+- !private "KingfisherManager"
+- "KingfisherOptionsInfo"
+- !private "KingfisherParsedOptionsInfo"
+- "KingfisherWrapper"
+- "NSMutableDictionary"
+- !private "NSNumber"
+- "Resource"
+- "Result"
+- "RetrieveImageResult"
+- "Source"
+- "UIButton"
+- "UIControl"
+- "UIImage"
+- "URL"
+- "Void"
+- !private "backgroundImageTaskKey"
+- !private "backgroundTaskIdentifierKey"
+- !private "getAssociatedObject"
+- !private "imageTaskKey"
+- !private "setRetainedAssociatedObject"
+- !private "taskIdentifierKey"
+depends-member:
+- !private ["Sa", "empty"]
+- !private ["s13ArrayProtocolP", "empty"]
+- !private ["SK", "empty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["10Kingfisher3BoxC", "init"]
+- !private ["10Kingfisher3BoxC", "value"]
+- ["So15CALayerDelegateP", "State"]
+- !private ["So15CALayerDelegateP", "setBackgroundImage"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- ["s7CVarArgP", "State"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "empty"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setBackgroundImage"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10Kingfisher13CallbackQueueO", "execute"]
+- !private ["10Kingfisher13CallbackQueueO", "mainCurrentOrAsync"]
+- !private ["Sl", "empty"]
+- ["s28CustomDebugStringConvertibleP", "State"]
+- !private ["s28CustomDebugStringConvertibleP", "empty"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "get"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "setBackgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["10Foundation13CustomNSErrorP", "ImageSettingErrorReason"]
+- !private ["10Foundation13CustomNSErrorP", "imageSettingError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "empty"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "State"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "empty"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setBackgroundImage"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "empty"]
+- !private ["Se", "map"]
+- !private ["10Kingfisher12DownloadTaskV", "cancel"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "empty"]
+- !private ["SE", "map"]
+- ["SQ", "State"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "empty"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "setBackgroundImage"]
+- !private ["SQ", "setImage"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["s5ErrorP", "ImageSettingErrorReason"]
+- !private ["s5ErrorP", "imageSettingError"]
+- !private ["s25ExpressibleByArrayLiteralP", "empty"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["SH", "State"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "empty"]
+- !private ["SH", "failure"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "setBackgroundImage"]
+- !private ["SH", "setImage"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- ["10Kingfisher6SourceO10IdentifierO", "Value"]
+- !private ["10Kingfisher6SourceO10IdentifierO", "next"]
+- !private ["10Kingfisher0A5ErrorO012ImageSettingB6ReasonO", "emptySource"]
+- !private ["10Kingfisher0A5ErrorO012ImageSettingB6ReasonO", "notCurrentSourceTask"]
+- !private ["10Kingfisher0A10CompatibleP", "setBackgroundImage"]
+- !private ["10Kingfisher0A10CompatibleP", "setImage"]
+- !private ["10Kingfisher0A5ErrorO", "ImageSettingErrorReason"]
+- !private ["10Kingfisher0A5ErrorO", "deinit"]
+- !private ["10Kingfisher0A5ErrorO", "imageSettingError"]
+- !private ["10Kingfisher0A7ManagerC", "defaultOptions"]
+- !private ["10Kingfisher0A7ManagerC", "retrieveImage"]
+- !private ["10Kingfisher0A7ManagerC", "shared"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "init"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "keepCurrentImageWhileLoading"]
+- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onFailureImage"]
+- !private ["10Kingfisher0A7WrapperV", "Box"]
+- !private ["10Kingfisher0A7WrapperV", "CallbackQueue"]
+- ["10Kingfisher0A7WrapperV", "DownloadProgressBlock"]
+- ["10Kingfisher0A7WrapperV", "DownloadTask"]
+- ["10Kingfisher0A7WrapperV", "KingfisherError"]
+- !private ["10Kingfisher0A7WrapperV", "KingfisherManager"]
+- ["10Kingfisher0A7WrapperV", "KingfisherOptionsInfo"]
+- !private ["10Kingfisher0A7WrapperV", "KingfisherParsedOptionsInfo"]
+- ["10Kingfisher0A7WrapperV", "NSMutableDictionary"]
+- !private ["10Kingfisher0A7WrapperV", "NSNumber"]
+- ["10Kingfisher0A7WrapperV", "Resource"]
+- ["10Kingfisher0A7WrapperV", "Result"]
+- ["10Kingfisher0A7WrapperV", "RetrieveImageResult"]
+- ["10Kingfisher0A7WrapperV", "Source"]
+- ["10Kingfisher0A7WrapperV", "UIButton"]
+- ["10Kingfisher0A7WrapperV", "UIControl"]
+- ["10Kingfisher0A7WrapperV", "UIImage"]
+- ["10Kingfisher0A7WrapperV", "URL"]
+- ["10Kingfisher0A7WrapperV", "Void"]
+- !private ["10Kingfisher0A7WrapperV", "backgroundImageTask"]
+- !private ["10Kingfisher0A7WrapperV", "backgroundImageTaskKey"]
+- ["10Kingfisher0A7WrapperV", "backgroundTaskIdentifier"]
+- !private ["10Kingfisher0A7WrapperV", "backgroundTaskIdentifierInfo"]
+- !private ["10Kingfisher0A7WrapperV", "backgroundTaskIdentifierKey"]
+- ["10Kingfisher0A7WrapperV", "backgroundWebURL"]
+- !private ["10Kingfisher0A7WrapperV", "base"]
+- ["10Kingfisher0A7WrapperV", "cancelBackgroundImageDownloadTask"]
+- ["10Kingfisher0A7WrapperV", "cancelImageDownloadTask"]
+- !private ["10Kingfisher0A7WrapperV", "getAssociatedObject"]
+- !private ["10Kingfisher0A7WrapperV", "imageTask"]
+- !private ["10Kingfisher0A7WrapperV", "imageTaskKey"]
+- ["10Kingfisher0A7WrapperV", "setBackgroundImage"]
+- !private ["10Kingfisher0A7WrapperV", "setBackgroundTaskIdentifier"]
+- ["10Kingfisher0A7WrapperV", "setImage"]
+- !private ["10Kingfisher0A7WrapperV", "setRetainedAssociatedObject"]
+- !private ["10Kingfisher0A7WrapperV", "setTaskIdentifier"]
+- ["10Kingfisher0A7WrapperV", "taskIdentifier"]
+- !private ["10Kingfisher0A7WrapperV", "taskIdentifierInfo"]
+- !private ["10Kingfisher0A7WrapperV", "taskIdentifierKey"]
+- ["10Kingfisher0A7WrapperV", "webURL"]
+- !private ["10Foundation14LocalizedErrorP", "ImageSettingErrorReason"]
+- !private ["10Foundation14LocalizedErrorP", "imageSettingError"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "empty"]
+- ["So8NSCodingP", "State"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setBackgroundImage"]
+- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So19NSMutableDictionaryC", "init"]
+- !private ["So19NSMutableDictionaryC", "subscript"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "State"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setBackgroundImage"]
+- !private ["So8NSObjectC", "setImage"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectP", "State"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "setBackgroundImage"]
+- !private ["So8NSObjectP", "setImage"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So7NSValueC", "init"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["Sq", "map"]
+- !private ["Sk", "empty"]
+- !private ["Sm", "empty"]
+- !private ["SY", "rawValue"]
+- !private ["10Kingfisher8ResourceP", "network"]
+- !private ["10Kingfisher6ResultO", "failure"]
+- !private ["10Kingfisher6ResultO", "get"]
+- !private ["10Kingfisher6ResultO", "success"]
+- !private ["10Kingfisher19RetrieveImageResultV", "image"]
+- !private ["ST", "empty"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- ["10Kingfisher6SourceO", "Identifier"]
+- !private ["10Kingfisher6SourceO", "network"]
+- !private ["So14UIControlStateV", "rawValue"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setBackgroundImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- ["So29UIAccessibilityIdentificationP", "State"]
+- !private ["So29UIAccessibilityIdentificationP", "setBackgroundImage"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- ["So12UIAppearanceP", "State"]
+- !private ["So12UIAppearanceP", "setBackgroundImage"]
+- !private ["So12UIAppearanceP", "setImage"]
+- ["So21UIAppearanceContainerP", "State"]
+- !private ["So21UIAppearanceContainerP", "setBackgroundImage"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So8UIButtonC", "setBackgroundImage"]
+- !private ["So8UIButtonC", "setImage"]
+- ["So9UIControlC", "State"]
+- !private ["So9UIControlC", "setBackgroundImage"]
+- !private ["So9UIControlC", "setImage"]
+- ["So17UICoordinateSpaceP", "State"]
+- !private ["So17UICoordinateSpaceP", "setBackgroundImage"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- ["So13UIDynamicItemP", "State"]
+- !private ["So13UIDynamicItemP", "setBackgroundImage"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- ["So18UIFocusEnvironmentP", "State"]
+- !private ["So18UIFocusEnvironmentP", "setBackgroundImage"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- ["So11UIFocusItemP", "State"]
+- !private ["So11UIFocusItemP", "setBackgroundImage"]
+- !private ["So11UIFocusItemP", "setImage"]
+- ["So20UIFocusItemContainerP", "State"]
+- !private ["So20UIFocusItemContainerP", "setBackgroundImage"]
+- !private ["So20UIFocusItemContainerP", "setImage"]
+- ["So30UIPasteConfigurationSupportingP", "State"]
+- !private ["So30UIPasteConfigurationSupportingP", "setBackgroundImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- ["So11UIResponderC", "State"]
+- !private ["So11UIResponderC", "setBackgroundImage"]
+- !private ["So11UIResponderC", "setImage"]
+- ["So30UIResponderStandardEditActionsP", "State"]
+- !private ["So30UIResponderStandardEditActionsP", "setBackgroundImage"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setBackgroundImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- ["So18UITraitEnvironmentP", "State"]
+- !private ["So18UITraitEnvironmentP", "setBackgroundImage"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- ["So23UIUserActivityRestoringP", "State"]
+- !private ["So23UIUserActivityRestoringP", "setBackgroundImage"]
+- !private ["So23UIUserActivityRestoringP", "setImage"]
+- ["So6UIViewC", "State"]
+- !private ["So6UIViewC", "setBackgroundImage"]
+- !private ["So6UIViewC", "setImage"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "State"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setBackgroundImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s24_DestructorSafeContainerP", "empty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "empty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "State"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBackgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "empty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "10Kingfisher3BoxC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10Kingfisher13CallbackQueueO"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "10Kingfisher12DownloadTaskV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "10Kingfisher6SourceO10IdentifierO"
+- !private "10Kingfisher0A5ErrorO012ImageSettingB6ReasonO"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "10Kingfisher0A5ErrorO"
+- !private "10Kingfisher0A7ManagerC"
+- !private "10Kingfisher0A17ParsedOptionsInfoV"
+- "10Kingfisher0A7WrapperV"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So17NSFastEnumerationP"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableDictionaryC"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Kingfisher8ResourceP"
+- !private "10Kingfisher6ResultO"
+- !private "10Kingfisher19RetrieveImageResultV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- "10Kingfisher6SourceO"
+- !private "So14UIControlStateV"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "69603d4882650320a228b7cb91a85157"

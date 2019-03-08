@@ -1,0 +1,79 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ThreadConfined"
+- "ThreadSafeReference"
+provides-nominal:
+- "10RealmSwift14ThreadConfinedP"
+- "10RealmSwift19ThreadSafeReferenceC"
+provides-member:
+- ["10RealmSwift14ThreadConfinedP", ""]
+- ["10RealmSwift19ThreadSafeReferenceC", ""]
+- ["10RealmSwift0A0C", ""]
+- ["10RealmSwift0A0C", "resolve"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "AssistedObjectiveCBridgeable"
+- "Bool"
+- "CastingPrecedence"
+- "RLMThreadSafeReference"
+- "Realm"
+- "ThreadConfined"
+- "ThreadSafeReference"
+depends-member:
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "bridged"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "bridging"]
+- !private ["SQ", "rlmRealm"]
+- ["10RealmSwift0A0C", "ThreadSafeReference"]
+- ["10RealmSwift0A0C", "resolve"]
+- !private ["10RealmSwift0A0C", "rlmRealm"]
+- ["10RealmSwift14ThreadConfinedP", "Bool"]
+- ["10RealmSwift14ThreadConfinedP", "Realm"]
+- ["10RealmSwift14ThreadConfinedP", "isInvalidated"]
+- ["10RealmSwift14ThreadConfinedP", "realm"]
+- !private ["10RealmSwift19ThreadSafeReferenceC", "AssistedObjectiveCBridgeable"]
+- ["10RealmSwift19ThreadSafeReferenceC", "Bool"]
+- ["10RealmSwift19ThreadSafeReferenceC", "Confined"]
+- ["10RealmSwift19ThreadSafeReferenceC", "RLMThreadSafeReference"]
+- ["10RealmSwift19ThreadSafeReferenceC", "Realm"]
+- ["10RealmSwift19ThreadSafeReferenceC", "init"]
+- ["10RealmSwift19ThreadSafeReferenceC", "isInvalidated"]
+- !private ["10RealmSwift19ThreadSafeReferenceC", "objectiveCReference"]
+- ["10RealmSwift19ThreadSafeReferenceC", "resolve"]
+- !private ["10RealmSwift19ThreadSafeReferenceC", "swiftMetadata"]
+depends-nominal:
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SQ"
+- "10RealmSwift0A0C"
+- "10RealmSwift14ThreadConfinedP"
+- "10RealmSwift19ThreadSafeReferenceC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
+- "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a5e7548a3351845dcac98dc3b2aa8cce"

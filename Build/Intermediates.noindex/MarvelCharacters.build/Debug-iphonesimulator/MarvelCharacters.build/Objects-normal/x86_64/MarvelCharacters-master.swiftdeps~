@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "e9f319e875bda8f8af5e2cd9d7a1a187"
+build_time: [1551717222, 910049000]
+inputs:
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Data Helpers/MarvelRequestBuilder.swift": [1551715283, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Data Helpers/DatabaseManager.swift": [1551712823, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Data Helpers/Character.swift": [1551710857, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Data Helpers/FileDirectoryHelper.swift": [1551714540, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Data Helpers/Config.swift": [1551710910, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/AppDelegate.swift": [1551713812, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Extensions/NotificationExtension.swift": [1551717133, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Extensions/DictionaryExtension.swift": [1551710936, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Cells/CharacterCell.swift": [1551710933, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/SavedViewController.swift": [1551717163, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/FirstViewController.swift": [1551717222, 0]
+  "/Users/jazking/Developer/iOS/Projects/MarvelCharacters/MarvelCharacters/Cells/SavedCharacterCell.swift": [1551710875, 0]
